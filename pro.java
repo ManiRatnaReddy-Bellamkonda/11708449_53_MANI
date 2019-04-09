@@ -1,5 +1,5 @@
 // Java program to implement Round Robin 
-// Scheduling with different arrival time 
+
 class roundrobin { 
 	public static void roundRobin(String p[], int a[], int b[], int n) 
 	{ 
