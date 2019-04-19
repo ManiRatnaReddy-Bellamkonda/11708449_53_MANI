@@ -196,7 +196,7 @@ int round_robin(int time,int flag)
 	return time;
 }
 
-int preemptive()
+int priority()
 {
 	int temp_process_count=process_count;
 	int finished_process=0;
@@ -255,7 +255,7 @@ int preemptive()
 
 void display()
 {
-	int time=preemptive();
+	int time=priority();
 	float avg_wait_time,avg_turnaround_time;
 	int wait_s=0,turn_s=0;
 	if(queue2_size!=-1)
